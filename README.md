@@ -1,22 +1,20 @@
+# 🏠 House Price Prediction using Linear Regression
 
-# 🏠 House Price Prediction
+This project predicts house prices using the `GrLivArea` feature from a Kaggle dataset and applies a Linear Regression model.
 
-## 📌 Goal
-Predict house prices using features like area, location, and number of rooms.
+## 📊 Tools Used
+- Python
+- Pandas
+- Scikit-learn
+- Matplotlib
 
-## 🧠 Model
-- Linear Regression
+## ⚙️ How to Run
+1. Clone the repo
+2. Install dependencies: `pip install -r requirements.txt`
+3. Run `house_price_model.ipynb` in Jupyter Notebook
 
-## 📊 Evaluation
-- R² Score
-- Mean Squared Error (MSE)
-- Scatter and residual plots
-
-## 📦 Tools Used
-- Python, Pandas, Scikit-learn, Matplotlib
+## 📈 Model Performance
+- R² Score: 0.55 (using GrLivArea only)
 
 ## 📁 Dataset
-Use any housing dataset from Kaggle (e.g., Bengaluru or California housing).
-
-## 🎥 Demo
-Upload your video to LinkedIn and paste the URL here.
+[Download from Kaggle](https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/data)
